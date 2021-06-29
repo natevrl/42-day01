@@ -1,3 +1,3 @@
 #! /bin/sh
-FT_USER=ngobert
-id -g $FT_USER
+FT_USER=
+id -G -n  $FT_USER | tr ' ' ',' 
